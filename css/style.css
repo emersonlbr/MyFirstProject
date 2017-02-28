@@ -1,5 +1,16 @@
+html {
+  max-width: 1024px;
+  width: 90%;
+  margin: 20px auto;
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 a {
- 	
+
     border: none;
     display: inline-block;
     color: white;
@@ -20,11 +31,13 @@ a:hover {
     transition-duration: 0.4s;
 }
 
+/*
 body {
 background-image: url("../img/background.jpg");
 width: 90%;
 
 }
+*/
 
 #button {
     background-color: Transparent;
@@ -50,19 +63,19 @@ width: 90%;
 
 }
 
-.button ul li { 
-  display: inline-block; 
+.button ul li {
+  display: inline-block;
 }
 
-#button ul li { 
-	display: inline; 
+#button ul li {
+	display: inline;
 }
 /*
 
 #home {
     background-color: transparent;
     color: white;
-    border: 1px solid white; 
+    border: 1px solid white;
     padding: 8px;
     border-radius: 5px;
 }
@@ -87,7 +100,7 @@ width: 90%;
   padding: 8px;
   margin: 1px 1px 1px 15px;
   border: 1px solid white;
-  
+
 
 }
 
@@ -145,7 +158,7 @@ width: 90%;
   font-size: 12px;
   padding: 10px;
   float: left;
-  
+
 }
 
 #h2:hover:after{
@@ -165,7 +178,3 @@ width: 90%;
   align-items: center;
 }
 */
-
-
-
-
